@@ -11,15 +11,10 @@ Specify the location where the Level 0 data is stored. Provide any relevant info
 Example:
 - Data stored in the project's AWS S3 bucket: `s3://project-name/data/`
 
-### Folder Structure
+### File Naming Conventions
 
-- **`/data`**: Contains raw Level 0 data files.
-- **`/scripts`**: Contains scripts used for data processing.
-
-### Naming Conventions
-
-- **Data Files**: Use a clear naming convention for data files, such as `YYYY-MM-DD_sensorID_raw.ext`.
-- **Scripts**: Use descriptive names for scripts and follow a consistent naming convention, such as `process_data.py` or `cleaning_script.R`.
+- **Data Files**: Use a clear naming convention for data files, such as `YYYY-MM-DD_sensorID_raw.csv`.
+- **Scripts**: Use descriptive names for scripts and follow a consistent naming convention, such as `process_data.py` or `cleaning_script.R`. If scripts are designed to be run in sequence, it may be helpful to number them in order (e.g., `1_cleaning_script.R`, `2_process_data.R`)
 
 ## Data Structure
 
@@ -30,7 +25,7 @@ Example:
 
 ## Scripts
 
-Provide descriptions of the scripts in the `/scripts` folder, including their purpose, inputs, and outputs. Specify whether scripts are standalone or designed to be run in sequence. If scripts are designed to be run in sequence, we suggest numbering them in order (e.g., `1_cleaning_script.R`, `2_process_data.R`)
+Provide descriptions of the scripts in the `/L0` folder, including their purpose, inputs, and outputs. Specify whether scripts are standalone or designed to be run in sequence. 
 
 ### `preprocess_data.py`
 
@@ -42,5 +37,5 @@ Provide descriptions of the scripts in the `/scripts` folder, including their pu
 
 - **Purpose**: Merges multiple preprocessed datasets.
 - **Inputs**: Processed data files in the `/processed_data` folder.
-- **Outputs**: Merged dataset saved as `merged_data.csv` in the `/output` folder.
+- **Outputs**: Merged dataset saved as `merged_data.csv` in the `/L1` folder.
 

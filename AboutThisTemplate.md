@@ -30,4 +30,8 @@ Projects should be organized following the Environmental Data Initiative's recom
 - Provide examples and use cases.
 - Include a table of contents for easy navigation) 
 
+## Script headers
+
+Ensuring that each script has a clear set of documentation will allow for others to understand its purpose, inputs, outputs, and who to contact with questions. We have provided a [template script]() with an informative header from the [MSU SpaCElab R Guide](https://space-lab-msu.github.io/r_guide/documentation.html) in the `/L0` folder.  
+
 ## Using this template
