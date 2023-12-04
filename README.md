@@ -2,7 +2,8 @@
 
 ## Table of Contents
 - [Introduction](#Introduction)
-- [Project organization](Project-organization)
+- [Workflow](#Workflow)
+- [Spatiotemporal extent and resolution](#Spatiotemporal-extent-and-resolution)
 - [Usage](#Usage)
 - [License](#License)
 - [Contributors](#Contributors)
@@ -10,15 +11,23 @@
 
 ## Introduction
 
-## Project organization 
+Clearly state the purpose of this repository, including a description of how it fits into the broader goals of the NEON-biodiversity project as a whole.  
 
-Projects should be organized following the Environmental Data Initiative's recommended [data processing levels](https://edirepository.org/resources/cleaning-data-and-quality-control):
+## Workflow
+
+Provide a high-level overview of the steps in the workflow (e.g., Download raw data files, merge to monthly time scale, and calculate geodiversity statistics). 
+
+## Spatiotemporal extent and resolution 
+
+Describe the spatial and temporal extent and resolution of the data sets resulting from the workflow. For example:  
+- Spatial extent: 81 NEON sites across North America
+- Spatial resolution: 1 NEON site
+- Temporal extent: 1950-2010
+- Temporal resolution: Monthly average temperature and precipitation
 
 ## Usage
 
-## License
-
-Specify the license under which the data and scripts are shared.
+Specify which software and versions were used to create the scripts (e.g., R version 4.3.0). 
 
 ## Contributors
 

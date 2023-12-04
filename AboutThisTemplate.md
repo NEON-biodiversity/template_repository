@@ -32,6 +32,11 @@ Projects should be organized following the Environmental Data Initiative's recom
 
 ## Script headers
 
-Ensuring that each script has a clear set of documentation will allow for others to understand its purpose, inputs, outputs, and who to contact with questions. We have provided a [template script]() with an informative header from the [MSU SpaCElab R Guide](https://space-lab-msu.github.io/r_guide/documentation.html) in the `/L0` folder.  
+Ensuring that each script has a clear set of documentation will allow for others to understand its purpose, inputs, outputs, and who to contact with questions. We have provided a [template script](https://github.com/NEON-biodiversity/template_repository/blob/main/L0/example_header.R) with an informative header based on the [MSU SpaCElab R Guide](https://space-lab-msu.github.io/r_guide/documentation.html) in the `/L0` folder.  
 
 ## Using this template
+
+This template is designed to be used with both new and existing repositories. 
+- **To use in a new repository**: 
+- **To apply to an existing repository**: 
+
