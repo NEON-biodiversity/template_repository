@@ -2,13 +2,18 @@
 
 ## Table of Contents
 - [About this template](#About-this-template)
+- [Why standardize?](#Why-standardize?)
 - [Project organization](#Project-organization)
 - [README guidance](#README-guidance)
+- [Using this template](#Using-this-template)
 
 ## About this template 
 
-This repository is designed to provide a standardized template for all repositories within the [National Ecological Observatory Network (NEON) Biodiversity Research](https://github.com/NEON-biodiv
+This repository is designed to provide a template for all repositories within the [National Ecological Observatory Network (NEON) Biodiversity Research](https://github.com/NEON-biodiversity) organization. The template is intentionally designed to be minimalist, while still providing sufficient information in a consistent format. This approach allows for adoption into existing repositories with minimal effort. 
 
+## Why standardize? 
+
+In complex, multi-institutional projects, ensuring thorough documentation of workflows helps to facilitate collaboration and allow all team members to easily work with data products developed by others. While many people have their own preferred methods for documenting workflows, standardizing the structure of all repositories within an organization will create coherency that allows all team members to easily and rapidly understand the organization and purpose of the code in each repository. In turn, this approach will help to reduce redundancy and streamline workflows. 
 
 ## Project organization 
 
@@ -17,10 +22,12 @@ Projects should be organized following the Environmental Data Initiative's recom
 - **L1**: Processed data 
 - **L2**: Value-added data 
 
-## README guidance: 
+## README guidance
 
 - Provide a clear and concise project description.
 - Include badges for build status, code coverage, and other relevant metrics.
 - Explain how to install, configure, and use the project.
 - Provide examples and use cases.
-- Include a table of contents for easy navigation.ersity) webpage.
+- Include a table of contents for easy navigation) 
+
+## Using this template
