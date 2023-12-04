@@ -30,7 +30,7 @@ Example:
 
 ## Scripts
 
-Provide descriptions of the scripts in the `/scripts` folder, including their purpose, inputs, and outputs.
+Provide descriptions of the scripts in the `/scripts` folder, including their purpose, inputs, and outputs. Specify whether scripts are standalone or designed to be run in sequence. If scripts are designed to be run in sequence, we suggest numbering them in order (e.g., `1_cleaning_script.R`, `2_process_data.R`)
 
 ### `preprocess_data.py`
 
