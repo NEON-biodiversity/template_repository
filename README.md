@@ -1,17 +1,20 @@
 # Template repository for NEON Biodiversity Research
 
 ## Table of Contents
-- [Purpose](#Purpose)
-- [README guidance](#README-guidance)
+- [Introduction](#Introduction)
+- [Project organization](Project-organization)
+- [Usage](#Usage)
 - [License](#License)
 - [Contributors](#Contributors)
 - [Contact Information](#Contact-information)
 
-## Purpose
+## Introduction
 
 ## Project organization 
 
 Projects should be organized following the Environmental Data Initiative's recommended [data processing levels](https://edirepository.org/resources/cleaning-data-and-quality-control):
+
+## Usage
 
 ## License
 
