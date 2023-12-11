@@ -4,7 +4,6 @@
 - [About this template](#About-this-template)
 - [Why standardize?](#Why-standardize?)
 - [Project organization](#Project-organization)
-- [README guidance](#README-guidance)
 - [Using this template](#Using-this-template)
 
 ## About this template 
@@ -43,14 +42,6 @@ To this end, this template has been constructed with the following structure:
 The  README in the root folder is designed to provide a general overview of the repository, while the unique READMEs within each data processing level folder are designed to provide more detailed information specific to that level. 
 
 **Note**: If multiple coding languages are used within a repository, a new folder (with L0, L1, and L2 subfolders) should be created for each language. 
-
-## README guidance
-
-* Provide a clear and concise project description.
-* Include badges for build status, code coverage, and other relevant metrics.
-* Explain how to install, configure, and use the project.
-* Provide examples and use cases.
-* Include a table of contents for easy navigation) 
 
 ## Script headers
 
