@@ -3,6 +3,7 @@
 ## Table of Contents
 - [Introduction](#Introduction)
 - [Workflow](#Workflow)
+- [Location of data](#Location-of-data)
 - [Spatiotemporal extent and resolution](#Spatiotemporal-extent-and-resolution)
 - [Usage](#Usage)
 - [License](#License)
@@ -16,6 +17,10 @@
 ## Workflow
 
 [*Provide a high-level overview of the steps in the workflow (e.g., Download raw data files, merge to monthly time scale, and calculate geodiversity statistics).*] 
+
+## Location of data 
+
+[*Specify the location(s) where the data that are processed or result from the scripts in this repository are stored (e.g., Google Drive hyperlink)*]
 
 ## Spatiotemporal extent and resolution 
 
