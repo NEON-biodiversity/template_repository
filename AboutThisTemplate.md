@@ -17,11 +17,32 @@ In complex, multi-institutional projects, ensuring thorough documentation of wor
 
 ## Project organization 
 
-Projects should be organized following the Environmental Data Initiative's recommended [data processing levels](https://edirepository.org/resources/cleaning-data-and-quality-control):
+Project code should be organized following the Environmental Data Initiative's recommended [data processing levels](https://edirepository.org/resources/cleaning-data-and-quality-control). One of the key EDI principles is to store data and scripts in organized folders according to the degree of processing that has occurred. 
 
 * **L0**: Raw or minimally processed data
 * **L1**: Processed data 
 * **L2**: Value-added data 
+
+To this end, this template has been constructed with the following structure: 
+
+```bash
+├── README.md
+├── AboutThisTemplate.md
+├── R
+│   ├── L0
+│   │   ├── README.md
+│   │   ├── example_header.R
+│   ├── L1
+│   │   ├── README.md
+│   ├── L2
+│   │   ├── README.md
+├── LICENSE.txt
+├── .gitignore
+```
+
+The  README in the root folder is designed to provide a general overview of the repository, while the unique READMEs within each data processing level folder are designed to provide more detailed information specific to that level. 
+
+**Note**: If multiple coding languages are used within a repository, a new folder (with L0, L1, and L2 subfolders) should be created for each language. 
 
 ## README guidance
 
@@ -44,3 +65,6 @@ This template is designed to be used with both new and existing repositories.
 * **To use in a new repository**: 
 * **To apply to an existing repository**: 
 
+## Additional ideas for customization: 
+
+* **Vignettes**: 
