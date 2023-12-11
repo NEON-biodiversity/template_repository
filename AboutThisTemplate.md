@@ -18,17 +18,18 @@ In complex, multi-institutional projects, ensuring thorough documentation of wor
 ## Project organization 
 
 Projects should be organized following the Environmental Data Initiative's recommended [data processing levels](https://edirepository.org/resources/cleaning-data-and-quality-control):
-- **L0**: Raw or minimally processed data
-- **L1**: Processed data 
-- **L2**: Value-added data 
+
+* **L0**: Raw or minimally processed data
+* **L1**: Processed data 
+* **L2**: Value-added data 
 
 ## README guidance
 
-- Provide a clear and concise project description.
-- Include badges for build status, code coverage, and other relevant metrics.
-- Explain how to install, configure, and use the project.
-- Provide examples and use cases.
-- Include a table of contents for easy navigation) 
+* Provide a clear and concise project description.
+* Include badges for build status, code coverage, and other relevant metrics.
+* Explain how to install, configure, and use the project.
+* Provide examples and use cases.
+* Include a table of contents for easy navigation) 
 
 ## Script headers
 
@@ -36,7 +37,10 @@ Ensuring that each script has a clear set of documentation will allow for others
 
 ## Using this template
 
+All text marked in [*brackets and italics*] is meant to be customized for each unique repository. Simple delete the bracketed text and replace with the appropriate information for your repository. 
+
 This template is designed to be used with both new and existing repositories. 
-- **To use in a new repository**: 
-- **To apply to an existing repository**: 
+
+* **To use in a new repository**: 
+* **To apply to an existing repository**: 
 
