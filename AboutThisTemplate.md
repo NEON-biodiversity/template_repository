@@ -59,3 +59,5 @@ This template is designed to be used with both new and existing repositories.
 ## Additional ideas for customization: 
 
 * **Vignettes**: 
+* **Code structure**: 
+* **Documentation**: 
