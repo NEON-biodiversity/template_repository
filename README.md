@@ -36,7 +36,7 @@
 
 ## Contributors
 
-[*- List individuals or organizations involved in collecting, processing, and maintaining the Level 0 data.*]
+[*List individuals or organizations involved in collecting, processing, and maintaining the Level 0 data.*]
 
 ## Contact Information
 
