@@ -6,6 +6,7 @@
 - [Location of data](#Location-of-data)
 - [Spatiotemporal extent and resolution](#Spatiotemporal-extent-and-resolution)
 - [Usage](#Usage)
+- [File naming conventions](#File-naming-conventions)
 - [License](#License)
 - [Contributors](#Contributors)
 - [Contact Information](#Contact-information)
@@ -33,6 +34,27 @@
 ## Usage
 
 [*Specify which software and versions were used to create the scripts (e.g., R version 4.3.0).*]
+
+### File Naming Conventions
+
+- **Data Files**: [*Specify a clear naming convention for data files, such as `YYYY-MM-DD_sensorID_raw.csv`.*]
+- **Scripts**: [*Use descriptive names for scripts and follow a consistent naming convention, such as `process_data.py` or `cleaning_script.R`. If scripts are designed to be run in sequence, it may be helpful to number them in order (e.g., `1_cleaning_script.R`, `2_process_data.R`)*]
+
+## Scripts
+
+[*Provide descriptions of the scripts in the `/L0` folder, including their purpose, inputs, and outputs. Specify whether scripts are standalone or designed to be run in sequence.*] 
+
+### [*`preprocess_data.py`*]
+
+- [**Purpose**: *Cleans and preprocesses raw Level 0 data.*]
+- [**Inputs**: *Raw data files in the `/data` folder (`YYYY-MM-DD_sensorID_raw.ext`).*]
+- [**Outputs**: *Processed data files in a new folder (`/processed_data`).*]
+
+### [*`merge_datasets.R`*]
+
+- [**Purpose**: *Merges multiple preprocessed datasets.*]
+- [**Inputs**: *Processed data files in the `/processed_data` folder.*]
+- [**Outputs**: *Merged dataset saved as `merged_data.csv` in the `/output` folder.*]
 
 ## Contributors
 
