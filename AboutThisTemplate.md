@@ -52,10 +52,7 @@ Ensuring that each script has a clear set of documentation will allow for others
 
 All text marked in [*brackets and italics*] is meant to be customized for each unique repository. Simple delete the bracketed text and replace with the appropriate information for your repository. 
 
-This template is designed to be used with both new and existing repositories. 
-
-* **To use in a new repository**: 
-* **To apply to an existing repository**: 
+This template is designed to be used with both new and existing repositories. To use , simply download the associated folders files and move into the appropriate repository. 
 
 ## Additional ideas for customization: 
 
