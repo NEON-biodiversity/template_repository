@@ -46,15 +46,15 @@
 
 ### [*`preprocess_data.py`*]
 
-- [**Purpose**: *Cleans and preprocesses raw Level 0 data.*]
-- [**Inputs**: *Raw data files in the `/data` folder (`YYYY-MM-DD_sensorID_raw.ext`).*]
-- [**Outputs**: *Processed data files in a new folder (`/processed_data`).*]
+- **Purpose**: [*Cleans and preprocesses raw Level 0 data.*]
+- **Inputs**: [*Raw data files in the `/data` folder (`YYYY-MM-DD_sensorID_raw.ext`).*]
+- **Outputs**: [*Processed data files in a new folder (`/processed_data`).*]
 
 ### [*`merge_datasets.R`*]
 
-- [**Purpose**: *Merges multiple preprocessed datasets.*]
-- [**Inputs**: *Processed data files in the `/processed_data` folder.*]
-- [**Outputs**: *Merged dataset saved as `merged_data.csv` in the `/output` folder.*]
+- **Purpose**: [*Merges multiple preprocessed datasets.*]
+- **Inputs**: [*Processed data files in the `/processed_data` folder.*]
+- **Outputs**: [*Merged dataset saved as `merged_data.csv` in the `/output` folder.*]
 
 ## Contributors
 
